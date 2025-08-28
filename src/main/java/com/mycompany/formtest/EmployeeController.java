@@ -44,12 +44,12 @@ public class EmployeeController {
 	}
 	@RequestMapping (value = "/employeeOk")
 	public String employeeOk(Model model) {
-		model.addAttribute("eid", "tiger");
+		//model.addAttribute("eid", "tiger");
 		return "employeeOk";
 	}
 	@RequestMapping (value = "/employeeNo")
 	public String employeeNo(Model model) {
-		model.addAttribute("eid", "tiger");
+		//model.addAttribute("eid", "tiger");
 		return "employeeNo";
 	}
 
